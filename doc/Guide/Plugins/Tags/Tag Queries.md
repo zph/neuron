@@ -57,6 +57,8 @@ You can limit the amount of zettels to be shown in a query. This can be useful f
 
 ## Limitations of tag queries
 
+Tag queries currently depend on a metadata value being set in the source file for `date` otherwise the query will not include that entry.
+
 Non-ascii tags must be URI encoded when using in tag queries. See [this comment](https://github.com/srid/neuron/issues/446#issuecomment-720001775). Alternatively, if tagging in your case is semantically equivalent to linking, you may use [[Folgezettel Links]].
 
 [URI]: https://en.wikipedia.org/wiki/Uniform_Resource_Identifier
